@@ -1,0 +1,43 @@
+#monsters-table
+{
+    font-family: 'TH';
+    margin-top: 40px;
+    margin-bottom: 100px;    
+}
+
+#monsters-table th
+{
+    font-size: 25px;
+    width: 100px;
+    background-color: greenyellow;
+}
+
+#monsters-table td
+{     
+    font-family: 'BM';
+    font-size: 25px;
+    text-align: center;    
+}
+
+#monsters-table tr
+{     
+    background-color: aliceblue;
+}
+
+#monsters-table tr:hover
+{     
+    background-color: rgb(221, 42, 42);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px)
+{
+    #monsters-table
+    {
+        margin-top: unset;
+    }
+    #monster-table th
+    {
+        font-size: 18px;
+    }
+}

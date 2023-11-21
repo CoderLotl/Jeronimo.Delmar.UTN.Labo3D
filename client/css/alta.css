@@ -1,0 +1,335 @@
+.pumpkin-icon
+{
+    background-image: url('../resources/icons/pumpkin.png');
+    width: 24px;
+    height: 24px;
+    display: inline-block;    
+}
+
+#formContainer
+{
+    padding: 10px;    
+    width: 80vw;    
+    background-color: rgb(14, 13, 13);    
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form
+{
+    background-image: url('../resources/images/bg2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;    
+    width: 90%;
+    height: auto;
+    margin-bottom: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;    
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#formTitle
+{
+    font-family: 'TH';
+    color: greenyellow;
+    background-color: rgba(145, 64, 221, 0.568);
+    font-size: 38px;
+    text-align: center;
+    width: 100%;    
+}
+
+.siren-icon
+{
+    background-image: url('../resources/gif/siren.gif');
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-size: cover;    
+}
+
+#sirenDiv
+{      
+    align-items: center;
+    font-style: italic;
+    font-family: 'TH';
+    background-image: none !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+fieldset
+{
+    all: revert;
+}
+
+#fieldSet
+{    
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;    
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#fieldSet div
+{        
+    display: flex;
+    flex-direction: column;
+}
+
+#sub-DivName
+{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+#divAlias
+{
+    margin-top: 40px;
+}
+
+legend
+{
+    all: revert;
+    font-family: 'TH';
+    color: rgb(0, 141, 141);
+    font-size: 30px;
+}
+
+#fieldSet div label
+{
+    font-family: 'TH';
+    color: rgb(0, 77, 51);
+    font-size: 25px;
+    cursor: pointer;    
+}
+
+#fieldSet div input
+{
+    width: 50%;
+    font-size: 20px;    
+}
+
+#defensaFieldset
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#defensaFieldset div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#miedo-fieldset
+{    
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#rng-miedo
+{    
+    width: 80%;
+    align-self: center;    
+}
+
+#miedo-value
+{
+    font-family: 'BM';
+    font-size: 25px;
+}
+
+#tipo-fieldset
+{
+    margin-top: 40px;
+}
+
+#tipo-options
+{    
+    font-size: 20px;
+    font-family: 'TH';
+}
+
+#buttonsDiv
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row !important;
+}
+
+#buttonsDiv button
+{
+    color: white !important;
+    font-family: 'TH';
+    width: 100px;
+    font-size: 25px;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+button:hover
+{
+    cursor: pointer;    
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+#btn-guardar
+{
+    background-color: rgb(73, 73, 255);
+}
+
+#btn-clear
+{
+    background-color: rgb(73, 255, 128);
+}
+
+#btn-borrar
+{
+    background-color: rgb(255, 73, 73);
+}
+
+#filter-div
+{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    min-width: 480px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#col-filters-div
+{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    min-width: 480px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#fil-div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+}
+
+#miedo-av-div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+}
+
+#miedo-av
+{
+    background-color: white;
+    width: 30px;
+}
+
+#dialog
+{
+    color: white;
+    font-family: 'TH';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: unset;
+    width: 60%;
+    height: 20%;
+    position: fixed;
+    top: 50%;
+    z-index: 999;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: rgba(156, 71, 196, 0);
+}
+
+#spinnerImg
+{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+@media screen and (max-width: 480px)
+{    
+    #container
+    {
+        width: 100%;        
+    }
+    #formContainer
+    {
+        margin-top: 80px;
+        margin-bottom: unset;
+        width: 100%;        
+    }
+    #form
+    {
+        width: 100%;        
+    }
+    #fieldSet
+    {
+        width: 80%;
+    }
+    #sirenDiv
+    {
+        color: wheat;
+    }
+    #miedo-value
+    {
+        background-color: rgba(255, 255, 255, 0.521);
+    }
+}

@@ -1,0 +1,25 @@
+Este proyecto funciona con json-server. Instale json-server hoy mismo, y sea parte del futuro! :D
+
+URL: 'http://localhost:3000/monstruos'
+
+Estructura ejemplo del server:
+
+{
+  "monstruos": [
+    {
+      "id": 1,
+      "nombre": "Suki",
+      "tipo": "Esqueleto",
+      "alias": "Cresser",
+      "defensa": "pocion",
+      "miedo": "15"
+    },
+    {
+      "id": 2,
+      "nombre": "Vitia",
+      "alias": "Ortells",
+      "miedo": 43,
+      "tipo": "Esqueleto",
+      "defensa": "pocion"
+    }]
+}
