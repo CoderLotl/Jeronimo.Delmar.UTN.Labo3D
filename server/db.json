@@ -1,0 +1,28 @@
+{
+  "monstruos": [
+    {
+      "id": 3,
+      "nombre": "Tres",
+      "tipo": "Vampiro",
+      "alias": "Tres",
+      "defensa": "estaca",
+      "miedo": "0"
+    },
+    {
+      "id": 5,
+      "nombre": "Uno",
+      "tipo": "Vampiro",
+      "alias": "Uno",
+      "defensa": "estaca",
+      "miedo": "0"
+    },
+    {
+      "id": 6,
+      "nombre": "Dos",
+      "tipo": "Vampiro",
+      "alias": "Dos",
+      "defensa": "estaca",
+      "miedo": "0"
+    }
+  ]
+}
